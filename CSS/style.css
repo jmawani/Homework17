@@ -1,0 +1,261 @@
+.main {
+    background-color: #FAF7F4;
+    padding: 20px;
+}
+
+nav {
+    background-color: rgb(48, 82, 102);
+    height: 40px;
+    padding: 8px;
+    width: 100%;
+}
+
+nav ul li {
+    list-style-type: none;
+    width: 150px;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    text-align: right;
+    color: #f1f1f1;
+    font-family: 'Exo' , sans-serif;
+}
+
+nav ul li img {
+    list-style-type: none;
+    float: left;
+    position: relative;
+    bottom: 25px;
+    height: 60px;
+}
+
+.Header {
+    color: #101B6E;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Satisfy', cursive;
+}
+
+.About {
+    display: flex;
+    height: 230px;
+    width: 100%;
+    justify-content: space-between;
+    align-content: space-evenly;
+}
+
+.WhyUXCard {
+    box-shadow: 2px 2px 2px 2px rgba(3,3,3,0.2);
+    transition: 0.3s; 
+    padding: 2px 16px;
+    text-align: center;
+    border-radius: 2px;
+    width: 500px;
+    color: #f1f1f1;
+    background-color: rgb(48, 82, 102);
+    transition: .5s;
+}
+
+
+.WhyUXCard h4 {
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    color: #f1f1f1;
+}
+
+.ProfilePicture img {
+    height: 225px;
+    align-content: center;
+    width: 300px;
+    padding: 2px;
+}
+
+.AboutMe {
+    box-shadow: 2px 2px 2px 2px rgba(3,3,3,0.2);
+    transition: 0.3s; 
+    padding: 2px 16px;
+    text-align: center;
+    border-radius: 2px;
+    width: 500px;
+    color: #f1f1f1;
+    background-color: rgb(48, 82, 102);
+}
+.AboutMe h4 {
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    color: #f1f1f1;
+}
+
+.Projects h2{
+    font-family: 'Satisfy', cursive;
+    color: #101B6E;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.Project1 {
+    box-shadow: 2px 2px 2px 2px rgba(.3,.3,.3,0.2);
+    max-width: 800px;
+    position: relative; 
+    background: rgb(48, 82, 102); 
+    background: rgb(48, 82, 102);
+    color: #f1f1f1; 
+    width: 20%; 
+    padding: 20px;
+    transition: all 1.7s;
+    margin-top: 50px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.Project1Text {
+    visibility: hidden;
+}
+
+.Project1:hover {
+    width: 1000px;
+    animation: ease;
+    text-align: center;
+    color: #f05a94;
+    background-color: black;
+}
+
+.Project1:hover .Project1Text {
+    visibility: visible;
+    text-align: center;
+}
+
+.Project2 {
+    box-shadow: 2px 2px 2px 2px rgba(.3,.3,.3,0.2);
+    max-width: 800px;
+    float: right;
+    background: rgb(48, 82, 102); 
+    background: rgb(48, 82, 102);
+    color: #f1f1f1; 
+    width: 20%; 
+    padding: 20px;
+    transition: all 1.7s;
+    margin-top: 50px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.Project2Text {
+    visibility: hidden;
+}
+
+.Project2:hover {
+    width: 1000px;
+    animation: ease;
+    text-align: center;
+    color: #4E9298;
+    background-color: #582e78;
+}
+
+.Project2:hover .Project2Text {
+    visibility: visible;
+    text-align: center;
+}
+
+.Project3 {
+    box-shadow: 2px 2px 2px 2px rgba(.3,.3,.3,0.2);
+    max-width: 800px;
+    position: relative;
+    background: rgb(48, 82, 102); 
+    background: rgb(48, 82, 102);
+    color: #f1f1f1; 
+    width: 20%; 
+    padding: 20px;
+    transition: all 1.7s;
+    margin-top: 300px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.Project3Text {
+    visibility: hidden;
+}
+
+.Project3:hover {
+    width: 1000px;
+    animation: ease;
+    text-align: center;
+    color: #f1f2f5;
+    background-color: #2a5993;
+}
+
+.Project3:hover .Project3Text {
+    visibility: visible;
+    text-align: center;
+}
+
+.Project4 {
+    box-shadow: 2px 2px 2px 2px rgba(.3,.3,.3,0.2);
+    max-width: 800px;
+    float: right;
+    background: rgb(48, 82, 102); 
+    background: rgb(48, 82, 102);
+    color: #f1f1f1; 
+    width: 20%; 
+    padding: 20px;
+    transition: all 1.7s;
+    margin-top: 50px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.Project4Text {
+    visibility: hidden;
+}
+
+.Project4:hover {
+    width: 1000px;
+    animation: ease;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: #9e2222;
+}
+
+.Project4:hover .Project4Text {
+    visibility: visible;
+    text-align: center;
+}
+
+.Project5 {
+    box-shadow: 2px 2px 2px 2px rgba(.3,.3,.3,0.2);
+    max-width: 800px;
+    position: relative; 
+    background: rgb(48, 82, 102); 
+    background: rgb(48, 82, 102);
+    color: #f1f1f1; 
+    width: 20%; 
+    padding: 20px;
+    transition: all 1.7s;
+    margin-top: 300px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.Project5Text {
+    visibility: hidden;
+}
+
+.Project5:hover {
+    width: 1000px;
+    animation: ease;
+    text-align: center;
+    color: #b9cde0;
+    background-color: rgb(7, 102, 57);
+}
+
+.Project5:hover .Project5Text {
+    visibility: visible;
+    text-align: center;
+}

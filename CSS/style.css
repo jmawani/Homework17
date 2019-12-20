@@ -125,14 +125,15 @@ nav ul li img {
 .Project1:hover {
     animation: ease;
     text-align: center;
-    color: #f05a94;
-    background-color: black;
+    color: white;
+    background-color: rgb(184, 70, 29);
 }
 
 .Project1:hover .Project1Text {
     visibility: visible;
     text-align: center;
 }
+
 
 .Project2 {
     box-shadow: 2px 2px 2px 2px rgba(.3,.3,.3,0.2);
@@ -157,13 +158,18 @@ nav ul li img {
 .Project2:hover {
     animation: ease;
     text-align: center;
-    color: #4E9298;
-    background-color: #582e78;
+    color: white;
+    background-color: rgb(184, 70, 29);
 }
 
 .Project2:hover .Project2Text {
     visibility: visible;
     text-align: center;
+}
+
+.Project2 a {
+    text-decoration: none;
+    color: white;
 }
 
 .Project3 {
@@ -190,13 +196,18 @@ nav ul li img {
 .Project3:hover {
     animation: ease;
     text-align: center;
-    color: #f1f2f5;
-    background-color: #2a5993;
+    color: white;
+    background-color: rgb(184, 70, 29);
 }
 
 .Project3:hover .Project3Text {
     visibility: visible;
     text-align: center;
+}
+
+.Project3 a {
+    text-decoration: none;
+    color: white;
 }
 
 .P2 {
@@ -221,7 +232,7 @@ nav ul li img {
     cursor: pointer;
     border-radius: 10px;
     height: 225px;
-    margin-left: 20%;
+    margin-left: 19%;
 }
 
 .Project4Text {
@@ -231,13 +242,18 @@ nav ul li img {
 .Project4:hover {
     animation: ease;
     text-align: center;
-    color: rgb(0, 0, 0);
-    background-color: #9e2222;
+    color: white(0, 0, 0);
+    background-color: rgb(184, 70, 29);
 }
 
 .Project4:hover .Project4Text {
     visibility: visible;
     text-align: center;
+}
+
+.Project4 a {
+    text-decoration: none;
+    color: white;
 }
 
 .Project5 {
@@ -255,7 +271,7 @@ nav ul li img {
     cursor: pointer;
     border-radius: 10px;
     height: 225px;
-    margin-right: 19%;
+    margin-right: 20%;
 }
 
 .Project5Text {
@@ -265,13 +281,18 @@ nav ul li img {
 .Project5:hover {
     animation: ease;
     text-align: center;
-    color: #b9cde0;
-    background-color: rgb(7, 102, 57);
+    color: white;
+    background-color: rgb(184, 70, 29);
 }
 
 .Project5:hover .Project5Text {
     visibility: visible;
     text-align: center;
+}
+
+.Project5 a {
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -315,44 +336,4 @@ text-decoration: none;
     color: black;
 }
 
-.main2 {
-    background-color: white;
-    padding: 20px;
-}
-/*
 
-nav {
-    background-color: black;
-    height: 40px;
-    padding: 8px;
-    width: 100%;
-}
-
-nav ul li {
-    list-style-type: none;
-    width: 150px;
-    float: left;
-    display: flex;
-    justify-content: space-between;
-    align-content: space-between;
-    text-align: right;
-    color: white;
-    font-family: 'Exo' , sans-serif;
-}
-
-nav ul li img {
-    list-style-type: none;
-    float: left;
-    position: relative;
-    bottom: 25px;
-    height: 60px;
-}
-
-*/
-
-.Header2 {
-    color: #f05a94;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Shadows Into Light', cursive;
-}

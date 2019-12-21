@@ -337,3 +337,281 @@ text-decoration: none;
 }
 
 
+@media only screen and (max-width: 780px) {
+    .Navigation nav ul li {
+        list-style-type: none;
+        width: 130px;
+        float: left;
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        text-align: left;
+        color: #f1f1f1;
+    }
+
+    .Header {
+        font-size: 30px;
+    }
+
+    .About {
+        display: block;
+        width: 780px;
+        height: auto;
+        font-size: 16px;
+        justify-content: space-evenly;
+    }
+
+    .WhyUXCard {
+        display: block;
+        width: 700px;
+        height: auto;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .ProfilePicture img {
+        margin-left: 200px;
+    }
+    
+    .AboutMe {
+        display: block;
+        width: 700px;
+        height: auto;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .P1 {
+        display: block;
+        width: 780px;
+        height: auto;
+        font-size: 16px;
+        justify-content: space-between;
+    }
+
+    .Project1{
+        display: block;
+        width: 700px;
+        animation: none;
+        padding: 10px;
+        height: 150px;
+    }
+
+    .P1 {
+        animation: none;
+        pointer-events: none;
+    }
+
+    .Project1Text {
+        visibility: visible;
+    }
+
+    .Project2 {
+        display: block;
+        width: 700px;
+        animation: none;
+        padding: 10px;
+        height: 170px;
+    }
+
+    .Project2Text {
+        visibility: visible;
+    }
+
+    .Project3 {
+        display: block;
+        width: 700px;
+        animation: none;
+        padding: 10px;
+        height: 170px;
+    }
+
+    .Project3Text {
+        visibility: visible;
+    }
+
+    .P2 {
+        animation: none;
+        pointer-events: none;
+        display: block;
+        width: 400px;
+        font-size: 16px;
+    }
+
+    .Project4Text {
+        visibility: visible;
+    }
+
+    .Project4 {
+        display: block;
+        width: 700px;
+        animation: none;
+        margin-left: 0em;
+        margin-top: 50px;
+        padding: 10px;
+        height: 170px;
+    }
+
+    .Project5 {
+        display: block;
+        width: 700px;
+        animation: none;
+        margin-left: 0em;
+        margin-top: 50px;
+        padding: 10px;
+        height: 170px;
+    }
+
+    .Project5Text {
+        visibility: visible;
+    }
+
+    .Footer {
+        margin-top: 250px;
+        display: block;
+        text-align: center;
+    }
+
+    .InfoFooter ul li {
+        float: left;
+        font-size: 14px;
+        display: flex;
+        
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Navigation nav ul li {
+        float: left;
+        display: none;
+        color: white;
+        padding: 2px;
+        text-decoration: none;
+        width: 400px;
+        font-size: 10px;
+    }
+
+    .Header {
+        font-size: 20px;
+    }
+
+    .About {
+        display: block;
+        width: 400px;
+        height: auto;
+        font-size: 16px;
+        justify-content: space-evenly;
+    }
+
+    .WhyUXCard {
+        display: block;
+        width: 400px;
+        height: auto;
+        font-size: 16px;
+    }
+
+    .ProfilePicture img {
+        margin-left: 70px;
+    }
+    
+    .AboutMe {
+        display: block;
+        width: 400px;
+        height: auto;
+        font-size: 16px;
+    }
+
+    .P1 {
+        display: block;
+        width: 400px;
+        height: auto;
+        font-size: 16px;
+        justify-content: space-between;
+    }
+
+    .Project1{
+        display: block;
+        width: 400px;
+        animation: none;
+        height: 170px;
+    }
+
+    .P1 {
+        animation: none;
+        pointer-events: none;
+    }
+
+    .Project1Text {
+        visibility: visible;
+    }
+
+    .Project2 {
+        display: block;
+        width: 400px;
+        animation: none;
+        height: 200px;
+    }
+
+    .Project2Text {
+        visibility: visible;
+    }
+
+    .Project3 {
+        display: block;
+        width: 400px;
+        animation: none;
+        height: 200px;
+    }
+
+    .Project3Text {
+        visibility: visible;
+    }
+
+    .P2 {
+        animation: none;
+        pointer-events: none;
+        display: block;
+        width: 400px;
+        font-size: 16px;
+    }
+
+    .Project4Text {
+        visibility: visible;
+    }
+
+    .Project4 {
+        display: block;
+        width: 400px;
+        animation: none;
+        margin-left: 0em;
+        margin-top: 50px;
+        height: 200px;
+    }
+
+    .Project5 {
+        display: block;
+        width: 400px;
+        animation: none;
+        margin-left: 0em;
+        margin-top: 50px;
+        height: 200px;
+    }
+
+    .Project5Text {
+        visibility: visible;
+    }
+
+    .Footer {
+        margin-top: 400px;
+        display: block;
+        text-align: center;
+    }
+
+    .InfoFooter ul li {
+        float: left;
+        font-size: 14px;
+        display: flex;
+        
+    }
+}
